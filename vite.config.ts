@@ -5,4 +5,5 @@ import svgr from "vite-plugin-svgr";
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [reactRefresh(), svgr()],
+  base:'/signup-211100-vite/'
 })
