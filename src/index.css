@@ -1,0 +1,23 @@
+@import url("https://fonts.google.com/specimen/Poppins");
+
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+html,
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.bg-image {
+  background-image: url("C:\Users\JoseV\Music\sign-up-form-master\images\fondo.jpg");
+}
+
+@media (max-width: 640px) {
+  .bg-image {
+    background-image: url("");
+    /* background-position: 0; */
+  }
+}
