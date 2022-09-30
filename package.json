@@ -4,7 +4,7 @@
   "description": "Vite, React, Tailwind, TypeScript Template",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "vite build",
     "serve": "vite preview",
     "deploy": "gh-pages -d dist"
   },
